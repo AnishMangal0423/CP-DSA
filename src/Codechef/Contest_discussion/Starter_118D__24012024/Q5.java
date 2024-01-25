@@ -1,4 +1,4 @@
-package Codechef.Contest_discussion;
+package Codechef.Contest_discussion.Starter_118D__24012024;
 
 import java.util.Scanner;
 
