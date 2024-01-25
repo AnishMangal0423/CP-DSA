@@ -2,7 +2,7 @@ package CodeForces.Practice;
 
 import java.util.*;
 
-public class Balanced_Round {
+public class B_Balanced_Round {
 
     public static void main(String[] args) {
 
