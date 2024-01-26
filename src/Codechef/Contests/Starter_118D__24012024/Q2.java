@@ -1,9 +1,8 @@
-package Codechef.Contest_discussion.Starter_118D__24012024;
+package Codechef.Contests.Starter_118D__24012024;
 
 import java.util.Scanner;
 
-public class Q1 {
-
+public class Q2 {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
@@ -13,11 +12,10 @@ public class Q1 {
         while (tc-- >0){
 
             int n=sc.nextInt();
+            int p =sc.nextInt();
 
-            int m=sc.nextInt();
-            int p=sc.nextInt();
-
-            System.out.println(Math.max(n*p, m*p));
+         if((100*n)/p >=75) System.out.println("YES");
+         else System.out.println("NO");
 
         }
     }
