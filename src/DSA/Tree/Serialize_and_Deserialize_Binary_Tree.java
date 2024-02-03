@@ -5,6 +5,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+/**
+ *
+ *  TC - O(N)
+ *  SC - O(N)
+ *
+ *
+ * **/
 public class Serialize_and_Deserialize_Binary_Tree{
 
     public static String Serialize(TreeNode root){
