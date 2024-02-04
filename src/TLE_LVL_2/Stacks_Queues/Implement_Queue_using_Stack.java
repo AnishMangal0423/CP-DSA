@@ -103,8 +103,13 @@ public class Implement_Queue_using_Stack{
         System.out.println(q.pop());
         System.out.println(q.pop());
 
-
-
-
     }
 }
+
+
+/**
+ *
+ * Main Application --> Application of this is in Read and Write operation that .. Input stack is only for write
+ *                      Operation while output is for Read operation.
+ *
+ * **/
