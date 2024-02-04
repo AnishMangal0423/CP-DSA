@@ -5,16 +5,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-class Activities_Pair{
 
-    int val;
-    int ind;
-
-    Activities_Pair(int val, int ind){
-        this.val=val;
-        this.ind=ind;
-    }
-}
 public final class A_Three_Activities {
 
 
@@ -98,5 +89,17 @@ public final class A_Three_Activities {
             System.out.println(maxi);
 
         }
+    }
+}
+
+
+class Activities_Pair{
+
+    int val;
+    int ind;
+
+    Activities_Pair(int val, int ind){
+        this.val=val;
+        this.ind=ind;
     }
 }
