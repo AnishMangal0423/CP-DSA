@@ -50,7 +50,9 @@ class MyStack{
             q.add(q.poll());
         }
 
-        return q.peek();
+        int ans = q.peek();
+        q.add(q.poll());
+        return ans;
     }
 
 
@@ -81,8 +83,9 @@ public class Implement_Stack_using_Queue{
         stk.push(30);
         stk.push(40);
 
-        System.out.println(stk.pop());
         System.out.println(stk.peek());
+        System.out.println(stk.pop());
+
         System.out.println(stk.isEmpty());
 
 
