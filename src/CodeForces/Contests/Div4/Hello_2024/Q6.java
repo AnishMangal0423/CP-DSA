@@ -1,9 +1,8 @@
-package CodeForces.Contests.Hello_2024;
+package CodeForces.Contests.Div4.Hello_2024;
 
 import java.util.Scanner;
 
-public class Q4 {
-
+public class Q6 {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);

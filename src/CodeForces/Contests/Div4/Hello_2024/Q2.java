@@ -1,4 +1,4 @@
-package CodeForces.Contests.Hello_2024;
+package CodeForces.Contests.Div4.Hello_2024;
 
 import java.util.Scanner;
 

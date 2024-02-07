@@ -1,4 +1,4 @@
-package CodeForces;
+package CodeForces.Practice;
 import java.util.*;
 
 public class Factorial{

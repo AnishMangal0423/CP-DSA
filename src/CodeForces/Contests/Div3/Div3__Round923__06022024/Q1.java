@@ -1,4 +1,4 @@
-package CodeForces.Contests.Div_3__06022024;
+package CodeForces.Contests.Div3.Div3__Round923__06022024;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package CodeForces.Contests.Div_4_918__01012024;
+package CodeForces.Contests.Div4.Div_4_918__01012024;
 
 
 import java.util.Scanner;

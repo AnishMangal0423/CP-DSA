@@ -36,7 +36,7 @@
 //        }
 //    }
 //}
-package CodeForces.Contests.Div_3;
+package CodeForces.Contests.Div3.Div_3__Round921;
 
 import java.util.Scanner;
 
