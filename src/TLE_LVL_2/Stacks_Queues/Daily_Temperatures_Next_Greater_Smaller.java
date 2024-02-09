@@ -27,6 +27,31 @@ public class Daily_Temperatures_Next_Greater_Smaller {
         }
 
     }
+
+
+    public static void Next_Smaller_Temperature(int[]arr, int[]Smaller_ans){
+
+
+        Stack<Integer>stk = new Stack<>();
+        int n=arr.length;
+
+        for(int i=n-1; i>=0; i--){
+
+            while (!stk.isEmpty() && arr[stk.peek()] >= arr[i]){
+                stk.pop();
+            }
+
+            if(!stk.isEmpty()){
+                Smaller_ans[i]= stk.peek() - i;
+            }
+
+            stk.push(i);
+        }
+
+    }
+
+
+
     public static void main(String[] args) {
 
 
@@ -42,7 +67,16 @@ public class Daily_Temperatures_Next_Greater_Smaller {
 
         Next_Greater_Temperature(arr, Greater_ans);
 
-        System.out.println(Arrays.toString(Greater_ans));
+        System.out.println("Next Larger Temperature Day : "+ Arrays.toString(Greater_ans));
+
+
+        int[]Smaller_ans = new int[n];
+
+        Next_Smaller_Temperature(arr, Smaller_ans);
+
+        System.out.println("Next Smaller Temperature Day : "+ Arrays.toString(Smaller_ans));
+
+
     }
 
 }
