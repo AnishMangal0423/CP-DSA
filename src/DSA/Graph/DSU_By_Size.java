@@ -1,8 +1,14 @@
 package DSA.Graph;
 
-
-import java.util.Arrays;
-
+/**
+ *
+ * Add : DSU By Size only the change is that we do not want our number o…
+ * …f elements to loose like in rank one so we use less no of elements will add ..
+ * Btw rank is more good because it tells smaller rank means smaller height so will take log(smaller)
+ * will reduce more time complexity so yeah at the end of the day tc for both is almost 4@ and both are
+ * good only this method is more intutive
+ *
+ * **/
 class DSUBySize{
 
     int n;
