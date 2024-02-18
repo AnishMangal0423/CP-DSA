@@ -1,5 +1,23 @@
 package DSA.Tree;
 
+/**
+ *
+ *   Time and Space Complexities of this Solution-
+ *
+ *   1. Time Compelxitiy --> O(N) -- becuause we are Moving to every Element.
+ *      Space Complexity --> O(1) + O(Stack space/ H)
+ *
+ *
+ *
+ *   Approch-2 : Inorder Traversal-
+ *       1. TC - O(N)
+ *          SC - O(Stack Space).
+ *
+ *
+ * **/
+
+
+
 public class BST_Validate_Binary_Search_Tree{
 
 
