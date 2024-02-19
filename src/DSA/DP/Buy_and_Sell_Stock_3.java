@@ -3,7 +3,7 @@ package DSA.DP;
 import java.util.Scanner;
 
   /***
-          TC - O(days * 6)
+                  TC - O(days * 6)
                   SC - O(days * 6)   Because Limit is 2.
 
                   or In General Complexity...
