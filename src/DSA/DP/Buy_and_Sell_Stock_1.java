@@ -2,7 +2,7 @@ package DSA.DP;
 
 import java.util.Scanner;
 
-public class Best_Time_to_Buy_and_Sell_Stock{
+public class Buy_and_Sell_Stock_1 {
 
     public static void main(String[] args) {
 
