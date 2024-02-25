@@ -5,82 +5,92 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Q3{
 
+/**
+ *
+ * Concept :- Binary Search .
+ * Learning :- How to Implement the Binary search when Data is given According to 1-Based Indexing.
+ *
+ * Intution :- Before Implementing Binary search , You have to think that..
+ *            1. Time is Montonously Increasing if mid is ok ... then mid+1, mid+2,.. all will satisfy.(we will move left).
+ *            2. If mid is Not satisy nid-1, mid-2 will also not satisy. (we will Move right).
+ *            3. Now convert the Whole qn in 0-Based Indexing that is More Good.
+ *            4. Now Remember that high will be our ans.
+ *            5. You can Keep high as Infinity as well upto Int_max.. But we are keeping m+1
+ *            6. So if midvalue will satisfy then high == mid and high will be ans or move left.
+ *            7. If mid is not satisfying then move left to mid+1.
+ *            8. If mid is m+1 then it can't be ans.
+ *            9. Ans range id [1...m].
+ *
+ *
+ *
+ *   Time Complexity :-  O(MlogM)  ~ In worst Case.
+ *   Space Complexity :- O(M)  ~  M space is Used.
+ *
+ * **/
+
+public class Q3{
+    public static boolean BinarySearch(int[]nums, int[]changeIndexes , int seconds){
+
+        int[]last = new int[nums.length];
+        Arrays.fill(last, -1);
+
+        for(int i=0; i<seconds; i++){
+            last[changeIndexes[i]-1] = i;
+        }
+
+
+        int marked = 0;
+        int oprn = 0;
+
+        for(int i=0; i< seconds; i++){
+
+            if(i == last[changeIndexes[i]-1]){
+
+                if(nums[changeIndexes[i]-1] > oprn)return false;
+                else{
+                    oprn-=nums[changeIndexes[i]-1];
+                    marked++;
+                }
+            }
+
+            else oprn++;
+        }
+        return marked == nums.length;
+    }
     public static void main(String[] args) {
 
-//        Scanner sc = new Scanner(System.in);
-//
-//        HashMap<Integer, Integer>mm = new HashMap<>();
-//
-//        int s = 0;
-//        int n = nums.length;
-//        int m = ci.length;
-//        long sum=0;
-//
-//        for(int i=0; i<n; i++)sum+=nums[i];
-//
-//        for(int i=0; i<m; i++){
-////            if(mm.containsKey(ci[i])==false){
-////                ArrayList<Integer>temp = new ArrayList<>();
-////                temp.add(i+1);
-////                mm.put(ci[i] , temp);
-////            }
-////
-////
-////            else{
-////
-////                ArrayList<Integer>temp = mm.get(ci[i]);
-////                temp.add(i+1);
-////                mm.put(ci[i], temp);
-////            }
-//
-//            mm.put(i+1, ci[i]);
-//
-//        }
-//
-//
-//        for(int i=1; i<=2000; i++){
-//
-//            int maxi =4000;
-//
-//            for(int kii : mm.keySet()){
-//
-//                ArrayList<Integer>arr=mm.get(kii);
-//
-//                int val = arr.get(arr.size()-1);
-//
-//
-//            }
-//
-//        }
-//
-//
-//
-//        for(int i=0; i<n; i++)s+=nums[i];
-//
-//        for(int i=0; i<n; i++){
-//
-//            boolean flag = false;
-//            for(int j=0; j<m; j++){
-//
-//                if(ci[j]==i){
-//                  flag = true;
-//                  break;
-//                }
-//            }
-//
-//            if(flag==true){
-//                s++;
-//            }
-//
-//            else {
-//                return -1;
-//
-//            }
-//
-//
-//        }
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        int[]nums = new int[n];
+        int[]changeIndexes = new int[m];
+
+        for(int i=0; i<n; i++)nums[i]=sc.nextInt();
+        for(int i=0; i<m; i++)changeIndexes[i]=sc.nextInt();
+
+        int low = 0;
+        int high= m+1;
+
+        while (low < high){
+
+            int mid = (low + high)/2;
+
+            if(BinarySearch(nums, changeIndexes , mid) == true){
+
+                high = mid;
+            }
+
+            else {
+
+                low = mid+1;
+            }
+        }
+
+        if(high==m+1) System.out.println(-1);
+        else System.out.println(high);
 
     }
 }
