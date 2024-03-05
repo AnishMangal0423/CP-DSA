@@ -26,8 +26,35 @@ public class Important_Theory {
          *                          h. Abstarct methods , static bhi nhi ho skate kyuki fn defn hi nhi hota, koi direct call na karde.
          *
          *
+         * 3. Sub Class and Super Class --> Isko samajne se phle hme ye samajna hoga ki sub class ka matlab child classes
+         *   ...........................    Hota h aur , super class ka matlab parent class hota h .. to har class ka koi
+         *                                  na koi parent hota hi h , jiska koi parent explicitly nhi h oska parent bhi
+         *                                  Object class hoti h , aur hmm jo bhi fns usme defined hote h , jese toString()
+         *                                  notifyAll(),, ese functions ko jab marzi use kr sakte h , by object class Refrence.
          *
          *
+         * 4. Nested Classes  --> Nested Classes are of 2 Types -
+         *   ..................    a. Static Nested Classes.
+         *                         b. Non-static Netsed Classes (Inner Classes)
+         *                             aa. Local Inner Classes.
+         *                             bb. Member Inner Classes.
+         *                             cc. Anynomous Inner Classes.
+         *
+         *
+         *                             Class within the another Class is Known as Nested Class.
+         *                             Java mai hme Pta h ki hrr class ki ek file bnti h , let suppose class a is inside b
+         *                             ya too dono ko alag bnado , ya fir hme pata h ki sir class b hi a ko use krti h system
+         *                             mai to, alag se file bna ne ki wajaah hmm nesting use kr lete h.
+         *
+         *
+         *        a. Static Nested Class --> a. Jo ander ki nested static class h osko bhaar outer class ke non-static memebers
+         *          ......................      Access karne ka koi hakk nhi h.
+         *                                   b. Ye Baat thodi ajeeb h lekin , hmm bhaar wali class ke object bnaye bina hi , sidha
+         *                                      ander ki class ka object bnakar ander ke methods access kr sakte h.
+         *                                      Thoda olta h , ek tarah se ye samaj lo static bhaar wali class par likha h.
+         *                                   c. Bhaar wali class to sirf, public ya default hi ho sakti h par, ander wali jo class h wo
+         *                                      public, private, protected, defaul sab ho sakti h .. socho ander bnana h ya nhi ye to
+         *                                      sab possible h hi..
          *
          *
          *
