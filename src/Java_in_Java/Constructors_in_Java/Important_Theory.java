@@ -64,6 +64,43 @@ public class Important_Theory{
          *
          *
          *
+         *    -- Types of Constructors :-
+         *
+         *    1. Default constructor :- It is Added by the system when we have not defined any type of Constructor.
+         *       ....................   You can even see it if you will see the compiled file .. by using Javac file.java
+         *                              It do not have any parameters.
+         *
+         *    2. No Argumented Constructor :- It is Defined By user Itself , But it does not have any Arguments in it..
+         *       .........................    Empty Argumented constructor.
+         *
+         *
+         *    3. Parameterized Constructor :- It consists of Different Numbers of Parameters in it .
+         *      ...........................
+         *
+         *    4. Copy Constructor :-  It is used to Create the Copy of the Object as new object but same value as previous
+         *    ......................  Object , Data variables value will be same for both , but obj address will be different.
+         *                            In c++ there is By-default Copy constructor.. But in java we have to manually make it.
+         *
+         *
+         *    5. Constructor overLoading :- When we make the various constructor with the Difference of only number of Parameters
+         *    ............................  then it is Known as overloading.
+         *
+         *
+         *    6. Private Constructors :- It does not allows to Directly make the objects by any class. It restricts to make
+         *    .........................  Objects by other classes directly , we makes a public static functions which will
+         *                               return the objs made and now we can use this functio if allowed to make diff functions.
+         *
+         *
+         *    7. Chaining Constructor :-  It is used to Avoid to Intilize te same Inherited values to Initialize and make works easy
+         *    .........................   and Inilizes the values by implicitely calling them.
+         *                                super(..) is used.. if yo have no parameter to use then also java internally adds the super
+         *                                keyword in it and call parent first Always.
+         *
+         *
+         *
+         *
+         *
+         *
          *
          *
          *
