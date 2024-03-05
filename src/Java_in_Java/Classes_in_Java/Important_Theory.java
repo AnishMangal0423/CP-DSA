@@ -61,15 +61,26 @@ public class Important_Theory {
          *         b. Non-Static Nested --->  a. Sbse phle to Bhaar ke variables ho ya ander ke sarree variables hi hmm log access kr
          *           ....................        sakte h.
          *             Inner Classes          b. Bas object bhar ka bna na padega , fir osi obj se ander obj bna na padega
-         *             or Member Claases          fir ander ke methods call kar skate h.
+         *              ba  or Member Claases    fir ander ke methods call kar skate h.
+         *                    ...............
          *
          *
-         *                        ba. Local Inner Classes  -->1.  Inner Classes which are defined in any block of function, if-else
+         *   Note --> Inner Class ko hi Non static nested ko hi inner khte h , aur Normal wali jo hiti h wo hi member class hoti h.
+         *
+         *
+         *                        bb. Local Inner Classes  -->1.  Inner Classes which are defined in any block of function, if-else
          *                           .....................        or for loop
          *
          *                                                    2. No, private, public, protected is used for Local inner classes , only defalut is allowed.
          *                                                       Kyuki block ke logo ko private bolke koi sense hi nhi h wo to khud hi private, protected and all, no public.
          *
+         *
+         *                        bc. Anonomys Inner Class -->  Hota h kya h ki abstarct classes aur interfaces to bluprint sa dete h
+         *                          ......................      aab hamari responsibility h ki onhe ek class bnake implement kre.. iski
+         *                                                      bajay ye bhi kr sakte h ki hmm class bnaye hi na os class ka sidha hi
+         *                                                      obj bnaye aur jo bhi fn override krna ho wo bhi declaration ke sath hi krde
+         *                                                      kitna easy hoga.. file bhi nhi banegi ,.. aur feel bhi hoga.
+         *                                                      Internally hota whi h jo basics h par os anonmous class ka namm $ jesa kuch hota h.
          *
          *
          *
