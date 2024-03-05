@@ -31,7 +31,7 @@ class Outer{
         }
     }
 }
-public class Demo1{
+public class Normal_demo1{
     public static void main(String[] args) {
 
         // Invoking the Object of Inner class-

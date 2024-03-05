@@ -55,9 +55,20 @@ public class Important_Theory {
          *                                   c. Bhaar wali class to sirf, public ya default hi ho sakti h par, ander wali jo class h wo
          *                                      public, private, protected, defaul sab ho sakti h .. socho ander bnana h ya nhi ye to
          *                                      sab possible h hi..
+         *                                   d. Jo baat mene ajjeb woli h , wo mene aache se explain kri h static nested ke demo1 mai..
          *
          *
+         *         b. Non-Static Nested --->  a. Sbse phle to Bhaar ke variables ho ya ander ke sarree variables hi hmm log access kr
+         *           ....................        sakte h.
+         *             Inner Classes          b. Bas object bhar ka bna na padega , fir osi obj se ander obj bna na padega
+         *             or Member Claases          fir ander ke methods call kar skate h.
          *
+         *
+         *                        ba. Local Inner Classes  -->1.  Inner Classes which are defined in any block of function, if-else
+         *                           .....................        or for loop
+         *
+         *                                                    2. No, private, public, protected is used for Local inner classes , only defalut is allowed.
+         *                                                       Kyuki block ke logo ko private bolke koi sense hi nhi h wo to khud hi private, protected and all, no public.
          *
          *
          *
