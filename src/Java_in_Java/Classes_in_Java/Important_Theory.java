@@ -100,9 +100,18 @@ public class Important_Theory {
          *                             2. Lazy Intilization --> Isme jab call kroge tab hi phla obj bnega , 2nd obj creation to dono
          *                                                      mai hi whai refernce pass kar dega.
          *
+         *                            3. Synchorinization Bock.
+         *                            4. Double check Lock.
+         *                            5. Bill Pugh Solution.      --> Not so Imp for Juniors.
+         *                            6. Enum Singleton.
          *
          *
+         * 6.Immutable classes  --->   The concept of Immutable came into picture when once an Object is Created it's values
+         * .....................       can't be Changed. (Due to security Reasons and all).
+         *                             Demo I have Showed You.
          *
+         *
+         * 7.
          *
          *
          *
