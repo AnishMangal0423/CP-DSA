@@ -85,6 +85,30 @@ public class Important_Theory {
          *
          *
          *
+         * 5. Singleton Classes  --->  ye classes hoti h jiska sirf or sirf , ek hi obj ho sakta h , aab aap osi obj par jitni
+         *  ....................       chayee otni quriers chla sakta hein .. aur agar dusra obj bna ne ki koshish kari to osi
+         *                             obj ka refernce mil jayega jo phle tha ..
+         *                             Iska jadatar use Database connection mai kiya jata h like one time connection and then raise quieries
+         *                             We can use this single object repeatedly as per the requirements. This is the reason why multi-threaded
+         *                             and database applications mostly make use of the Singleton pattern in Java for caching, logging, thread pooling,
+         *                             configuration settings, and much more.
+         *
+         *                             Do tarike se ho sakta h -
+         *                             1. Eager Intilization --> bas obj phle se hi defined h , to agar call nhi kra to faltu mai
+         *                                                       hi obj bn gya.
+         *
+         *                             2. Lazy Intilization --> Isme jab call kroge tab hi phla obj bnega , 2nd obj creation to dono
+         *                                                      mai hi whai refernce pass kar dega.
+         *
+         *
+         *
+         *
+         *
+         *
+         *
+         *
+         *
+         *
          * **/
     }
 }
