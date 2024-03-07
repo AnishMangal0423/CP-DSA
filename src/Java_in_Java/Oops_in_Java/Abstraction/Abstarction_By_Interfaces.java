@@ -1,4 +1,4 @@
-package Java_in_Java.Oops.Abstraction;
+package Java_in_Java.Oops_in_Java.Abstraction;
 
 /***
  *

@@ -1,4 +1,4 @@
-package Java_in_Java.Oops.Inheritance;
+package Java_in_Java.Oops_in_Java.Inheritance;
 
 
 class class1{

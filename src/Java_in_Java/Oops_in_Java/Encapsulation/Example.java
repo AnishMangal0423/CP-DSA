@@ -1,4 +1,4 @@
-package Java_in_Java.Oops.Encapsulation;
+package Java_in_Java.Oops_in_Java.Encapsulation;
 
 /**
  *
