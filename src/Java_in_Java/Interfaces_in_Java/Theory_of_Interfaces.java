@@ -51,6 +51,21 @@ public class Theory_of_Interfaces {
   *
   *
   *
+  * Q4. Hii Anish, So what about Variables and Methods in Interface ?
+  * Ans:- Variables :-   Okay to ye thoda sa Interfaces ka Cringe h ki , Interface ke variables , Khud se hi Static and final hote h
+  *                     They are like constats , height , PIE, and all
+  *                     Interface a{
+  *                        int X = 10;  == same as , static final int X = 10;
+  *                       }
+  *
+  *                     you have to write it in UPPERCASE Letters.
+  *
+  *
+  *      Methods :- Hamare Interfaces ke Methods kabhi final nhi ho sakte and static bhi nhi , bcz of No body.
+  *                  Private, Protected isliye use krne mai dikkat h ki onka interface se hi Bhaar nhi h access.
+  *
+  *
+  *
   * **/
     }
 }
