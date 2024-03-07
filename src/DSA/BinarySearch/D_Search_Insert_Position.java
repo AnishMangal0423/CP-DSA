@@ -2,7 +2,7 @@ package DSA.BinarySearch;
 
 import java.util.Scanner;
 
-public class Search_Insert_Position{
+public class D_Search_Insert_Position {
 
     public static int BinarySearch(int[]arr, int Key){
 

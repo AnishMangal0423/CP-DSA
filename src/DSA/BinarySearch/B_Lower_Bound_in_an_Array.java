@@ -23,7 +23,7 @@ import java.util.Scanner;
  *
  *
  * **/
-public class Lower_Bound_in_an_Array{
+public class B_Lower_Bound_in_an_Array {
 
     public static int LowerBound(int[]arr, int x, int l, int r){
 

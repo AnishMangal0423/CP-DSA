@@ -6,7 +6,7 @@ import java.util.Scanner;
  * TC - O(logN)
  * SC - O(1) Time.
  * **/
-public class Binary_Search_Logic{
+public class A_Binary_Search_Logic {
 
     public static boolean Binary_Search(int[]arr, int l, int r, int target){
 

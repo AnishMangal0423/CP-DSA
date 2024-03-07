@@ -26,7 +26,7 @@ import java.util.Scanner;
  *
  *
  * **/
-public class Upper_Bound_in_an_Array{
+public class C_Upper_Bound_in_an_Array {
 
 
     public static int UpperBound(int[]arr, int x, int si, int ei){
