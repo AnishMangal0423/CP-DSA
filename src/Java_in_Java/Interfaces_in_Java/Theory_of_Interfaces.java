@@ -66,6 +66,63 @@ public class Theory_of_Interfaces {
   *
   *
   *
+  * ------------------------------------------------------------------------------------------------------------------
+  *
+  *   Difference b/w Abstarct class and Interfaces.
+  *
+  *                Abstract Classes                                                Interfaces
+  *              ......................                                          ..............
+  *  1. Keyword used here id "abstract"                               1. Keyword used here is "interfaces"
+  *  2. child Classes "extends"                                       2. Child classes "extends"
+  * *3. It can have abstarct and Non abstarct                         3. It can only have Abstarct fns (till java 7)
+  *     methods both (so flexible)
+  *  4. It can be extend from another classes                         4. Only be extended by interfaces.
+  *     and interfaces
+  *
+  *  5. Variables can be static, non-static,                          5. Variables are static and final as Constants.
+  *     final, non-final.
+  *
+  *  6. Variables and Methods can be Priavte, Public,                 6. All things are public and in Java 9 , private is
+  *     Protected and all..                                              also allowed.
+  *
+  *  7. Multiple Inheritance not supported.                           7. Multiple Inheritance supported.
+  *  8. It can have Constructor.                                      8. Not have Constructor.
+  *
+  *
+  *
+  * Abstarct classes ka obj to nhi bnta par , onki extended class ka obj bn sakta h , to isliye constructor hota h
+  * onke pass.
+  *
+  *
+  *
+  * FunFact-
+  *       Absatct class 1   , Abstarct class 2    --> Class extending both
+  *       void display(){--}  void dispaly(){--}      It will already give error because 2 classes can't be extended.
+  *                                                   but we can also override the method.
+  *
+  *
+  *      Interface 1,            Interface 2             --> class Extending both.
+  *       display(){              display(){         Will not give error. and will work fine
+  *      // Have body           // Have body               we can override method display(), according to use
+  *      }                      }
+  *
+  *                             ----> Main difference in between two.
+  *
+  *
+  *  Interface --> Interface   --> extends is used.
+  *  class    --> Class        --> extends is used.
+  *  class --> Interface       --> Implements is used.
+  *
+  *
+  * If any Function in interface has body also , then it will be --> default, static or private, because all these 3
+  * types can have body from java 8, 9.
+  * Isliye laya gya tha ki kisi interface se 1000 class connecetd, h aur agar ek bhi method new baad mai add kr diya
+  * to aab kese implement krenge isliye hmne default lagake body bna di oski.. aab jise alag krna hoga override kr lega.
+  *
+  *
+  *
+  *
+  *
   * **/
     }
 }
