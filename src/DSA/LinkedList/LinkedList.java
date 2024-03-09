@@ -24,7 +24,7 @@ public class LinkedList {
          System.out.println("Enter the Head Node Data of the LinkedList : ");
          Scanner sc = new Scanner(System.in);
          int HeadData = sc.nextInt();
-
+         if(HeadData==-1)return null;
          ListNode head = new ListNode(HeadData);
          ListNode temp = head;
 
