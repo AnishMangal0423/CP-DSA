@@ -34,6 +34,10 @@ import java.util.*;
  *   SC - O(1)
  *
  *
+ * ** Note ** --> It is also Not neccassry that Array must be sorted , you have to only keep pairs together like 6,6,1
+ *                is alsso correct , but 6,1,6 is wrong , becuase we are dealting with pairs and length not any comparisions.
+ *
+ *
  *
  * **/
 public class K_Single_Element_in_an_Array{
