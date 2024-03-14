@@ -1,5 +1,5 @@
 package DSA.Stack_and_Queue;
-import java.util.Stack;
+
 class StackArray{
 
     int index = 0;
