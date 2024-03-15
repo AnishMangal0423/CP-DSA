@@ -14,6 +14,7 @@ import java.util.Stack;
  * **/
 public class J_Next_Greater_Element_2{
 
+
     public static void NextGreaterElement2(int[]arr, int[]ans){
 
         int n = arr.length;
