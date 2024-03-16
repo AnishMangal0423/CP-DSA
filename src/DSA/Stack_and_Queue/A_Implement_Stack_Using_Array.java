@@ -53,7 +53,7 @@ class StackArray{
         return index == 0;
     }
 }
-public class Implement_Stack_Using_Array{
+public class A_Implement_Stack_Using_Array{
 
     public static void main(String[] args) {
 

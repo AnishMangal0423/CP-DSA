@@ -88,7 +88,7 @@ class QueueArray{
 
 }
 
-public class Implement_Queue_using_Arrays {
+public class B_Implement_Queue_using_Arrays {
 
     public static void main(String[] args) {
 
