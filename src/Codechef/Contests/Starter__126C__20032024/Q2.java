@@ -2,6 +2,16 @@ package Codechef.Contests.Starter__126C__20032024;
 
 import java.util.Scanner;
 
+/**
+ *
+ * Problem Link :- https://www.codechef.com/problems/FINALSALE
+ *
+ * Question Problem :- sum Based operation on an array.
+ * Learning :- Mostely questions of div 4 , 3rd is easy, take it easy make it easy.
+ *
+ * **/
+
+
 public class Q2 {
 
     public static void main(String[] args) {
@@ -28,7 +38,7 @@ public class Q2 {
          int rem=(sum1-sum2);
 
          if(arr[i] > rem){
-             ans = sum2+ arr[i];
+             ans = sum2 + arr[i];
              break;
          }
      }
