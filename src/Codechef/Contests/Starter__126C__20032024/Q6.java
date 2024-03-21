@@ -1,4 +1,4 @@
-package Codechef.Contests.Starter__125C__20032024;
+package Codechef.Contests.Starter__126C__20032024;
 
 import java.util.Scanner;
 

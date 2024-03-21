@@ -1,6 +1,4 @@
-package Codechef.Contests.Starter__125C__20032024;
-
-import com.sun.jdi.event.StepEvent;
+package Codechef.Contests.Starter__126C__20032024;
 
 import java.util.*;
 

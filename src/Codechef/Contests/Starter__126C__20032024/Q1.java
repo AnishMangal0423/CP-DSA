@@ -1,6 +1,14 @@
-package Codechef.Contests.Starter__125C__20032024;
+package Codechef.Contests.Starter__126C__20032024;
 
 import java.util.Scanner;
+
+/**
+ *Question Link :-  https://www.codechef.com/problems/DICEGAME3
+ * Problem :- Problem is to get the Maximum score.
+ * Mistake ::- Question Reading and Understanding Mistake.
+ *             Always-Always Read the Problem Correctly and Give the Ans by understanding and making Logic to it.
+ *
+ * **/
 
 public class Q1 {
 
