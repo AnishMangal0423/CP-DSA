@@ -1,6 +1,5 @@
 package DSA.LinkedList;
 
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -10,7 +9,7 @@ import java.util.Scanner;
  *             TC - O(N)
  *             SC - O(1)
  * **/
-public class Deleting_Kth_Nodes_in_LinkedList {
+public class D_Deleting_Kth_Nodes_in_LinkedList {
     public static ListNode DeleteNode(ListNode list, int k){
 
         ListNode prev = null;

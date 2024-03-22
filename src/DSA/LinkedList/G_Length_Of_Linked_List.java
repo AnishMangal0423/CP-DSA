@@ -1,6 +1,6 @@
 package DSA.LinkedList;
 
-public class Length_Of_Linked_List{
+public class G_Length_Of_Linked_List {
 
     public static int length(ListNode list){
 

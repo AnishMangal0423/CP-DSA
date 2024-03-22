@@ -1,9 +1,8 @@
 package DSA.LinkedList;
 
-import java.awt.*;
 import java.util.Scanner;
 
-public class Inserting_Node_in_Linked_List{
+public class C_Inserting_Node_in_Linked_List {
 
     public static ListNode Insert_Beginneing(ListNode l){
 

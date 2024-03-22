@@ -1,8 +1,6 @@
 package DSA.LinkedList;
 
 
-import java.awt.*;
-import java.util.List;
 import java.util.Scanner;
 
 class ListNode{

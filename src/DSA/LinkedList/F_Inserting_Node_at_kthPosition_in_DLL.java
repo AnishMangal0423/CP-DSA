@@ -1,9 +1,8 @@
 package DSA.LinkedList;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Inserting_Node_at_kthPosition_in_DLL{
+public class F_Inserting_Node_at_kthPosition_in_DLL {
 
     public static void DisplayDLL(DoublyListNode list){
 

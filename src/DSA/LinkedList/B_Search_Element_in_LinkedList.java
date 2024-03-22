@@ -1,9 +1,8 @@
 package DSA.LinkedList;
 
-import java.util.List;
 import java.util.Scanner;
 
-public class Search_Element_in_LinkedList{
+public class B_Search_Element_in_LinkedList {
 
     public  static boolean isPresent(ListNode list, int k){
 
