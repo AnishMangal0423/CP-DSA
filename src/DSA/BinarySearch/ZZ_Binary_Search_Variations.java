@@ -15,7 +15,7 @@ public class ZZ_Binary_Search_Variations {
          *
          *  4. Binary Search on Intervals.   --->  Problem [ T ]
          *
-         *  5. Binary Search on Answers ( Maximum of Minimum or , Minimum of Maximum )   --->   Problem [ U , V]
+         *  5. Binary Search on Answers ( Maximum of Minimum or , Minimum of Maximum )   --->   Problem [ U , V, W]
          *
          *
          *
