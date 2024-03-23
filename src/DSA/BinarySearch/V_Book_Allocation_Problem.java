@@ -64,14 +64,11 @@ public class V_Book_Allocation_Problem{
            int Number_of_Students_on_Mid = NumberOfStudents(arr, mid);
 
             System.out.println(s + " "+mid+" "+e+" "+ Number_of_Students_on_Mid);
-           if(Number_of_Students_on_Mid == students){
+           if(Number_of_Students_on_Mid <= students){
                ans = Math.min(ans, mid);
                e=mid-1;
            }
 
-           else if(Number_of_Students_on_Mid < students){
-               e = mid-1;
-           }
 
            else s = mid+1;
         }
