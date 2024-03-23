@@ -43,13 +43,9 @@ public class W_Painters_Partition_Problem{
             int Number_of_Painters_on_Mid = NumberOfPainters(arr, mid);
 
 //            System.out.println(s + " "+mid+" "+e+" "+ Number_of_Students_on_Mid);
-            if(Number_of_Painters_on_Mid == Painters){
+            if(Number_of_Painters_on_Mid <= Painters){
                 ans = Math.min(ans, mid);
                 e=mid-1;
-            }
-
-            else if(Number_of_Painters_on_Mid < Painters){
-                e = mid-1;
             }
 
             else s = mid+1;
