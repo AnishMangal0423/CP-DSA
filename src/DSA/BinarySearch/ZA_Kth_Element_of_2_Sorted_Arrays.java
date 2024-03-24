@@ -62,7 +62,7 @@ import java.util.Scanner;
  *                                   sense hi nhi isi liye e=min(pos, n1).
  *
  * ***/
-public class Z_Kth_Element_of_2_Sorted_Arrays{
+public class ZA_Kth_Element_of_2_Sorted_Arrays {
 
     public static int BinarySolution(int[]arr1, int[]arr2, int pos){
 
