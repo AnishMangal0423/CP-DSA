@@ -4,6 +4,8 @@ import java.util.Scanner;
 /**
  *
  * Discalmer :- These is an Very Important Question In terms of Interviews Prospective , Specially this Question itself.
+ *              ye problem bilkul same h , median of 2 sorted arrays se.. so bs wali approch to mene wahi rkhi h.
+ *
  *
  * Problem Statement :- Hame 2 arrays given h and they are sorted , aab hmse ye pocha gya h ki jab dono ko mila dete h tab
  *                      kth element kya hoga ..
