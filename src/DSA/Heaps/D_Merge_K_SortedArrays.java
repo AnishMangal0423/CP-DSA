@@ -13,8 +13,11 @@ import java.util.Scanner;
  *             TC - O(N.k log(N.k))
  *             SC - O(N.k)
  *
+ * Better Approch :- 2. Merge Solution --> Merge 2 Array, then other 2ARRAY, Then other 2Array and so on..
+ *  *                  TC - O(N.k.K) because (N.k + N.(k-1) + N.(K-2) + N.(K-3)+....) k times.
+ *  *                  SC - O(1)
  *
- * Best Approch :- 2. Use Priority Queue with pairs and first Insert first elemnts of all arrays and if someone is minimum
+ * Best Approch :- 3. Use Priority Queue with pairs and first Insert first elemnts of all arrays and if someone is minimum
  *                    push it to forward and add all the Elements in it. and store in array.
  *
  *                    TC - O(n.k log(k))
