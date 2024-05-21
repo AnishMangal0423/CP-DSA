@@ -26,7 +26,14 @@ public class B_Subsets__21052024 {
         Subset(arr, ind+1, temp, helper);
     }
 
-    public static void PowerSubset(int[]arr, ArrayList<ArrayList<Integer>>ans){
+
+    /**
+     *
+     * TC - O(2^N * N)
+     * SC - O(2^N * N)  --> as the answer array space.
+     *
+     * **/
+    public static void PowerSubsetMethod(int[]arr, ArrayList<ArrayList<Integer>>ans){
 
         int n = arr.length;
         int N_PowerSets = (1 << n);
@@ -57,7 +64,7 @@ public class B_Subsets__21052024 {
         System.out.println("All the Subsets of the Given ArrayList is ?: " + ans);
 
         ArrayList<ArrayList<Integer>>PowersetAns = new ArrayList<>();
-        PowerSubset(arr, PowersetAns);
+        PowerSubsetMethod(arr, PowersetAns);
         System.out.println("All the Subsets that I founded using Powerset Method ?: " + PowersetAns);
 
     }
