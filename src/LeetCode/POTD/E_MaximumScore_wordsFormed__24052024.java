@@ -1,9 +1,25 @@
 package LeetCode.POTD;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.HashMap;
 import java.util.Scanner;
+
+
+/**
+ *
+ * problem : To hame kuch words given H and we have to use the concept ki take-non_take takking kuch variation bn payee
+ *           and we will get the result that is Maximum to get out of it.
+ *
+ * Time Complexity ?: (2^(No of words) * N)
+ * Space Complexity ?: (2 ^ (No of words))
+ *
+ * Overall exponential method h and we have can do for small inputs.
+ * Topic - Backtracking.
+ *
+ * Problems ?: yrr ki hashmap backtarcking mai to ja rha h , but removal mai hashmp se kese krenge. and the solution is ki yrr hmm
+ *             harr word par ek state maintain kr de ki it was taken or Not.
+ *
+ *
+ * **/
 
 public class E_MaximumScore_wordsFormed__24052024{
 
