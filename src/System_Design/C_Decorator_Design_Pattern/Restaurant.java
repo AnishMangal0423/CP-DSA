@@ -10,7 +10,7 @@ public class Restaurant {
 
     public static void main(String[] args) {
 
-        Base_Pizza b1 = new Margeritha_Pizza();
+        Base_Pizza b1 = new Wheat_Pizza();
 
         Base_Pizza t1 = new Mushroom_Pizza(b1);
         Base_Pizza t2 = new OTC_Pizza(t1);
