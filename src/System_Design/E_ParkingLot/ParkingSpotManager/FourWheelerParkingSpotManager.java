@@ -14,6 +14,4 @@ public class FourWheelerParkingSpotManager extends ParkingSpotManager{
         super(list);
     }
 
-
-
   }
