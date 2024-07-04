@@ -1,21 +1,25 @@
 package DSA.DynamicProgramming;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class G_UniquePath {
+/***
+ *
+ * Tabulation Method -
+ *  Time Compelxity - O( Row * Col )
+ *  Space Complexity - O(Row * Col )
+ * */
 
+public class G_UniquePath {
     public static int UniquePaths(int rows, int cols, int[][]dp){
 
-        dp[rows-1][cols-1]=1;
+       for(int i=0; i<cols; i++)dp[rows-1][i]=1;
+       for(int j=0; j<rows; j++)dp[j][cols-1]=1;
 
-        for(int i=rows-1; i>=0; i--){
-            for(int j=cols-1; j>=0; j--){
+       for(int i=rows-2; i>=0; i--){
+            for(int j=cols-2; j>=0; j--){
 
-                if(dp[i][j]!=-1){
+                dp[i][j] = dp[i+1][j] + dp[i][j+1];
 
-                    dp[i][j] = (i+1 < rows)?dp[i+1][j]:0 + ((j+1<cols)?dp[i][j+1]:0);
-                }
             }
         }
         return dp[0][0];
