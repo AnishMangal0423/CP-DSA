@@ -40,13 +40,10 @@ public class RabinKarp_Algorithm {
     }
     public static boolean isPresent(String mainString, String pattern){
 
+        if(pattern.length() > mainString.length())return false;
         int MultiplyValue = 27;
         long MOD = (long) 10e9+7;
-
-        // Pattern --> abc len = 3
         long patternHashCode = 0;
-
-        // Now I will Go for My MainstringChecking -
 
         int mainStringLen = mainString.length();
         long mainStringHashCode = 0;
