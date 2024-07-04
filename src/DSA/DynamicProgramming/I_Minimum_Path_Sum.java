@@ -1,9 +1,8 @@
-package DSA.DP;
+package DSA.DynamicProgramming;
 
-import java.nio.file.Path;
 import java.util.Scanner;
 
-public class Minimum_Path_Sum{
+public class I_Minimum_Path_Sum {
 
     public static int PathSum(int[][]grid, int m , int n , int i, int j){
 
