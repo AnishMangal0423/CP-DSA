@@ -92,12 +92,12 @@ public class F_NinjaTraining {
 
 
         // By This we can Calculate via Memoization-
-        int maximumPoints = 0;
-        for(int j=0; j<cols; j++){
-            int a = MaxMeritPointsTabulation(matrix , 0, j, dp);
-            System.out.println("A "+a);
-            maximumPoints=Math.max(maximumPoints , a);
-        }
+//        int maximumPoints = 0;
+//        for(int j=0; j<cols; j++){
+//            int a = MaxMeritPointsTabulation(matrix , 0, j, dp);
+//            System.out.println("A "+a);
+//            maximumPoints=Math.max(maximumPoints , a);
+//        }
 
 
         // BY This we will go via Tabulation-
