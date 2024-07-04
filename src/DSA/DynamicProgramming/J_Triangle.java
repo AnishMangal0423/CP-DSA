@@ -1,10 +1,10 @@
-package DSA.DP;
+package DSA.DynamicProgramming;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Triangle{
+public class J_Triangle {
 
     public static int Min_Sum(List<List<Integer>>triangle, int i, int j, int m){
 
