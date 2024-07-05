@@ -1,7 +1,7 @@
-package DSA.DP;
+package DSA.DynamicProgramming;
 
 import java.util.Scanner;
-public class Partiton_Equal_Subset_Sum{
+public class N_Partiton_Equal_Subset_Sum {
 
     public static boolean Partiton(int[]arr, int sum, int i){
 
