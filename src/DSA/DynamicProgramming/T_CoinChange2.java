@@ -20,7 +20,7 @@ public class T_CoinChange2 {
 
         if(index<0)return 0;
         if(amountRemaining==0)return 1;
-        if(dp[index][amountRemaining]!=-1)return dp[index][amountRemaining]
+        if(dp[index][amountRemaining]!=-1)return dp[index][amountRemaining];
 
         int Non_take = CoinChange_Memoization(coins, index-1, amountRemaining, dp);
         int take = 0;
