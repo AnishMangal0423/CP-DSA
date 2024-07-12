@@ -30,7 +30,7 @@ import java.util.Stack;
 
  ---- Good Question - Stack , Greedy, Strings.
  */
-public class S_MaximumScore_RemovingSubstrings {
+public class S_MaximumScore_RemovingSubstrings__12072024 {
 
     // First I Thought It will be DP Question, But it is Not... ( Kyuki Hmm Khai se bhi remove kar sakte h )
     public static int MaximumScore(String s, int x, int y , int index){
