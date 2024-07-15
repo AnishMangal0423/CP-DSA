@@ -4,9 +4,9 @@ import java.util.*;
 
 class TreeNode{
 
-    int data;
-    TreeNode left=null;
-    TreeNode right=null;
+    public int data;
+    public TreeNode left=null;
+    public TreeNode right=null;
 
     TreeNode(int d){
 
