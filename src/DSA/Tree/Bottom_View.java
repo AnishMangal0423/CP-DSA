@@ -1,6 +1,26 @@
 package DSA.Tree;
-
 import java.util.*;
+
+
+/***
+ *
+ * Few Changes in Bottom View of Tree is -
+ *
+ * Agar Hmm Normally Tree Ka Bottom View Nikalenge to hme HashMap Ki jarurat to Padegi hi.
+ * takki hmm Updated Values Ko Rakh Payee . But hme TreeMap rkhte h. takki ans sorted order mai aaye. But agar
+ * tab time complexity :-
+ *
+ * TC - O(NlogN)
+ * SC - O(N)   Hoga.
+ *
+ *
+ *
+ * Lekin Agar tum HashMap mai rkho and then Baad mai array Bna kar ke os ko minDis jo minus mai h os Hisab se bhi kr sakte ho.
+ *
+ * TC - O(N)
+ * SC - O(N)
+ *
+ * **/
 
 class BViewPair{
     TreeNode node;
