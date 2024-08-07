@@ -3,6 +3,12 @@ package CodeForces.Contests.Div4.Div_4_964__06082024;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ *
+ * Never ever believe that Codeforces will Give you array as sorted.
+ * and Never ever miss any case.
+ *
+ * **/
 class pair{
 
     int fir;
