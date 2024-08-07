@@ -2,6 +2,18 @@ package CodeForces.Contests.Div4.Div_4_964__06082024;
 
 import java.util.Scanner;
 
+/**
+ * Good Question :-
+ * Agar hmse bola aaye ki kisi no ko 3 se divide krte krte 0 bna ne mai kitna time lagega to log num lagega
+ * and agar ye kaam n Continous numbers ke liye krna ho too nlogn nhi O(n) mai bhi ho jayega -
+ * arr[i] =  arr[i/3] + 1;
+ * se.
+ *
+ * Bas yhi logic that , ise O(n) time mai hi krna tha.
+ * O(nlogN) mai
+ *
+ *
+ * **/
 public class Q5 {
 
     public static void main(String[] args) {
@@ -34,9 +46,6 @@ public class Q5 {
             int ans = arr[l]*2;
 
             ans += (dp[r] - dp[l]);
-
-            int count = 0;
-
 
             System.out.println(ans);
         }
