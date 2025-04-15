@@ -1,10 +1,13 @@
 package System_Design.F_TicTacToe_Game.Pieces;
 
+import System_Design.F_TicTacToe_Game.PieceType;
+
 public class PlayingPieceType {
 
-    public char piece;
+    public PieceType piece;
 
-    PlayingPieceType(char p){
+    PlayingPieceType(PieceType p){
+
         this.piece=p;
     }
 }
