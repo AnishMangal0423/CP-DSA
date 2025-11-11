@@ -97,7 +97,7 @@ public class C_Grid_of_Average_Region{
                     for(int p=i; p<=i+2; p++){
                         for(int q=j; q<=j+2; q++){
 
-                            simg.get(p).get(q).add(val);
+                            simg.get(p).get(q).add(Integer.valueOf(val));
 
                         }
                     }
