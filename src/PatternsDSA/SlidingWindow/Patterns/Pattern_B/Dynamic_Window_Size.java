@@ -11,17 +11,17 @@ public class Dynamic_Window_Size {
          * Space : O(1)
          * */
         int n = arr.length;
-        int l = 0, r = 0, maxlen = 0, sum = 0;
+        int l = 0, r = 0, maxlen = 0, sum = 0;  // Step-1
 
         while (r < n) {
-            sum += arr[r];
+            sum += arr[r];    // Step-2
 
-            while (sum > k) {
+            while (sum > k) {   // Step-4
                 sum -= arr[l];
                 l++;
             }
 
-            maxlen = Math.max(maxlen, (r - l + 1));
+            maxlen = Math.max(maxlen, (r - l + 1));  // Step-3
             r++;
 
 
@@ -37,17 +37,17 @@ public class Dynamic_Window_Size {
          *
          * **/
         int n = arr.length;
-        int l = 0, r = 0, maxlen = 0, sum = 0;
+        int l = 0, r = 0, maxlen = 0, sum = 0;  // Step-1
 
         while (r < n) {
-            sum += arr[r];
+            sum += arr[r];   // Step-2
 
-            if (sum > k) {
+            if (sum > k) {   // Step-4
                 sum -= arr[l];
                 l++;
             }
 
-            maxlen = Math.max(maxlen, (r - l + 1));
+            maxlen = Math.max(maxlen, (r - l + 1));   // Step-3
             r++;
 
         }
