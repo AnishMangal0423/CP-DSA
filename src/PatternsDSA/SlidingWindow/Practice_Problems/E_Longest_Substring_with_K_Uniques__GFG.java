@@ -12,7 +12,7 @@ import java.util.Scanner;
  * Belongs to Pattern B.
  *
  * **/
-public class D_Longest_Substring_with_K_Uniques__GFG {
+public class E_Longest_Substring_with_K_Uniques__GFG {
 
     public static int longestKSubstr(String s, int k){
         int n = s.length();
